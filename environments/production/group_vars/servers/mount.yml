@@ -1,8 +1,0 @@
----
-
-mount_appdata_directory: "/mnt/appdata"
-mount_appdata_owner: "root"
-mount_appdata_group: "root"
-mount_storage_src: "//futurxstorage.file.core.windows.net/futurx-prod"
-mount_storage_opts: "vers=3.0,username=futurxstorage,password=ZxRNiKtkLA4QXByg7KwPJnTP7HpgG4pquRDgL1tuXqQEdQP6Bwt5KZKTAtAbclBUJTap2GI6yjZj+u7LGNitzA==,dir_mode=0777,file_mode=0777"
-mount_storage_filesystem: "cifs"

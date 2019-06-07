@@ -1,5 +1,0 @@
----
-
-openldap_client_uri: ldap://futurx-QA-vm1:389 ldap://futurx-QA-vm2:389
-openldap_sync_syncrepl_rid: 001
-openldap_sync_syncrepl_provider: ldap://futurx-QA-vm2:389

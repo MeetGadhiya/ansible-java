@@ -1,5 +1,0 @@
----
-
-pm2_cmds: []
-pm2_apps_delete_all: no
-pm2_service_name: "pm2-{{ ansible_user_id }}"

@@ -1,4 +1,0 @@
----
-
-mongodb_version: "3.4.13"
-mongodb_conf_bind_ip: "127.0.0.1"
