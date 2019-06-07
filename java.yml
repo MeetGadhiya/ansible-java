@@ -1,0 +1,7 @@
+---
+
+- hosts: java-group
+  roles:
+    - { role: java }
+  remote_user: vagrant
+  become: true

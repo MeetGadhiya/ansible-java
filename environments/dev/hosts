@@ -1,0 +1,23 @@
+[servers]
+futurx-dev-vm1
+
+[dbservers]
+futurx-dev-vm1
+
+[mongodb_primary_servers]
+futurx-dev-vm1
+
+[ldap_servers]
+futurx-dev-vm1      ansible_user=futurx
+
+[services]
+futurx-dev-vm1
+
+[webservers]
+futurx-dev-vm1
+
+[docker_hosts]
+futurx-dev-vm1
+
+[java-group]
+127.0.0.1 

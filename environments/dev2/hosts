@@ -1,0 +1,20 @@
+[servers]
+futurx-dev-vm2
+
+[dbservers]
+futurx-dev-vm2
+
+[mongodb_primary_servers]
+futurx-dev-vm2
+
+[ldap_servers]
+futurx-dev-vm2      ansible_user=futurx
+
+[services]
+futurx-dev-vm2
+
+[webservers]
+futurx-dev-vm2
+
+[docker_hosts]
+futurx-dev-vm2

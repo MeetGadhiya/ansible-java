@@ -1,0 +1,14 @@
+openldap_domain: srkay.com
+openldap_organization: SRKay Consulting Group LLP
+openldap_admin_password: srkaycg99
+
+openldap_server_suffix: dc=srkay,dc=com
+openldap_server_rootdn: cn=admin,dc=srkay,dc=com
+openldap_server_rootpw: srkaycg99
+
+openldap_client_base: dc=srkay,dc=com
+openldap_client_binddn: cn=admin,dc=srkay,dc=com
+
+openldap_sync_consumer: true
+openldap_sync_syncrepl_binddn: "{{ openldap_server_rootdn }}"
+openldap_sync_syncrepl_credentials: "{{ openldap_server_rootpw }}"

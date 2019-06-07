@@ -1,0 +1,15 @@
+futurx-prometheus-vm1
+futurx-grafana-vm1
+futurx-ansible-vm1
+futurx-bastion-vm1
+futurx-logs-elasticsearch-vm1	
+futurx-logs-graylog-vm1
+futurx-jenkins-vm1
+futurx-openldap-vm1
+futurx-openvpn-vm1
+
+[mongodb_primary_servers]
+futurx-logs-graylog-vm1
+
+[bastion]
+futurx-bastion-vm1

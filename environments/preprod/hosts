@@ -1,0 +1,20 @@
+[servers]
+scikey-pre-prod-vm1
+
+[dbservers]
+scikey-pre-prod-vm1
+
+[mongodb_primary_servers]
+scikey-pre-prod-vm1
+
+[ldap_servers]
+scikey-pre-prod-vm1    
+
+[services]
+scikey-pre-prod-vm1          ansible_ssh_user=scikey
+
+[webservers]                 
+scikey-pre-prod-vm1          ansible_ssh_user=scikey
+
+[docker_hosts]
+scikey-pre-prod-vm1

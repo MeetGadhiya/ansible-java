@@ -1,0 +1,65 @@
+---
+
+lightblue_config_dir: "/opt/wildfly/modules/com/redhat/lightblue/main"
+lightblue_wildfly_user: "wildfly"
+lightblue_wildfly_group: "wildfly"
+
+lightblue_datasources:
+  - metadata
+  - futurxlabs_futurx
+  - myorg_futurx
+  - demo_futurx
+  - futurxlabs_steerhigh
+  - futurxlabs_serenaway
+  - transform_serenaway
+  - homeland_serenaway
+  - letsbridgeit_serenaway
+  - demo_serenaway
+  - cgimelb_serenaway
+  - cgisydney_serenaway
+  - bmcbank_serenaway
+  - mccia_serenaway
+  - suprabha_futurx
+  - srkexports_serenaway
+  - bvp_serenaway
+  - app_howzthat
+  - app_commonviu
+  - app_steerhigh
+  - futurx_steerhigh
+  - app_hirest
+  - demo_steerhigh
+  - sci-key_futurxlabs
+  - futurxlabs_scikey
+  - futurx_futurx
+  - futurx_serenaway
+  - public_scikey
+  - enrich_serenaway
+  - scikey_hirest
+  - hire_scikey
+
+lightblue_dbservers:
+  - host: 10.0.3.4
+    port: 25309
+  
+lightblue_credentails:
+  - mongodbusername: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          38336334666235323063303532383438653232633033666233386163636265636263313538366161
+          3064366636323932633838623039343563326163383536340a616664623638333134666139313364
+          62663365353434663965346236363833353062653733323133313037333161346434356437643234
+          6433653463666439620a633438646636613964613066353033663436633365666131343639353262
+          6565
+    mongodbpassword: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          37386239613166386635663038396238323962326531663462393136343637386534626134336335
+          3966623861353464363863363339363861653938356636660a623065636535623665346132616139
+          37613335613935323639333739313430336639343661623430626466313937306330343766373963
+          6135613037303337390a313563333036376638303232616439313432323364343130346562646666
+          6531
+    mongodbauthsource: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          32306235633836666363666231323433623238393062326163663230613064366630336665626533
+          6564313736383863653461326166333131336365303036350a333836373762383835363131633966
+          32336532333637613834323830633663653831663836653938373161396331303738633231346565
+          6139353363306434650a373038643834613738393739663433363635326161633838663166333738
+          3738

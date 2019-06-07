@@ -1,0 +1,5 @@
+mongodb_version: "3.4.0"
+mongodb_conf_noprealloc: no
+mongodb_transparent_hugepage_disable: false
+mongodb_conf_bind_ip: "0.0.0.0"
+mongodb_conf_replSet: "production"

@@ -1,0 +1,5 @@
+mongodb_version: "3.6.0"
+mongodb_conf_noprealloc: no
+mongodb_transparent_hugepage_disable: false
+mongodb_conf_bind_ip: "{{ ansible_eth0.ipv4.address }}"
+mongodb_conf_replSet: "futurx"
